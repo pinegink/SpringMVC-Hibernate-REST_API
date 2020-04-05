@@ -7,6 +7,7 @@ I will provide a brief decricrion to quickly tell you what this project is about
  - Spring core, MVC, REST
  - PostgreSQL, Hibernate
  - Tomcat
+ - Maven
  - configured by xml
  
  
