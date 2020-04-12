@@ -7,7 +7,7 @@ import java.util.List;
 public interface SongDAO {
     public void saveSong (Song song);
     public void updateSong (Song song);
-    public Song getSongById (int id);
-    public List<Song> getSongsAll ();
-    public void deleteSongById (int id);
+    public Song getById(int id);
+    public List<Song> getAll();
+    public void deleteById(int id);
 }

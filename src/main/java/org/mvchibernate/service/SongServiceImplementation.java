@@ -28,18 +28,18 @@ public class SongServiceImplementation implements SongService {
     @Override
     @Transactional
     public Song getSongById(int id) {
-        return songDAO.getSongById(id);
+        return songDAO.getById(id);
     }
 
     @Override
     @Transactional
     public List<Song> getSongsAll() {
-        return songDAO.getSongsAll();
+        return songDAO.getAll();
     }
 
     @Override
     @Transactional
     public void deleteSongById(int id) {
-        songDAO.deleteSongById(id);
+        songDAO.deleteById(id);
     }
 }

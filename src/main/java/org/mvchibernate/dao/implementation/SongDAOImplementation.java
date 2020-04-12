@@ -29,19 +29,19 @@ public class SongDAOImplementation implements SongDAO {
     }
 
     @Override
-    public Song getSongById(int id) {
+    public Song getById(int id) {
         Session session = sessionFactory.getCurrentSession();
         return session.get(Song.class, id);
     }
 
     @Override
-    public List<Song> getSongsAll() {
+    public List<Song> getAll() {
         Session session = sessionFactory.getCurrentSession();
         return session.createQuery("from Song").list();
     }
 
     @Override
-    public void deleteSongById(int id) {
+    public void deleteById(int id) {
         Session session = sessionFactory.getCurrentSession();
         Query query = session.createQuery("delete from Song where id=:id");
         query.setParameter("id", id);

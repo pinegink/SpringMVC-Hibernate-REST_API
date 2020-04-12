@@ -1,7 +1,7 @@
 <html>
 <body>
 <p>
-    <a href="${pageContext.request.contextPath}/songs/list">To list of songs</a>
+    <a href="${pageContext.request.contextPath}/playlist/list">To playlists</a>
 </p>
 </body>
 </html>
