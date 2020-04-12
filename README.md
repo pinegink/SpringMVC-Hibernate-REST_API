@@ -15,9 +15,9 @@ I will provide a brief decricrion to quickly tell you what this project is about
  
  ![](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/images/1_entity-diagram.jpg)
  
- REST - url: api/songs - leads to CRUD operations on "songs" table
+ **Views**
  
- The first page is the list of playlists
+ The first view page is the list of playlists
  
  ![](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/images/2_main_page.JPG)
  
@@ -28,3 +28,5 @@ I will provide a brief decricrion to quickly tell you what this project is about
  ![](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/images/4_catalog.JPG)
  
  ![](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/images/5_add_new_song.JPG)
+ 
+ **REST** - url: api/songs - leads to CRUD operations on "songs" table
