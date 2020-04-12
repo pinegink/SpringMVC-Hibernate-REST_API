@@ -17,4 +17,4 @@ I will provide a brief decricrion to quickly tell you what this project is about
  
  "Add a song" and "Update" buttons lead to a form for saving and updating songs
  
- [main jsp page](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/ListSongs.jpg)
+ ![main jsp page](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/ListSongs.jpg)
