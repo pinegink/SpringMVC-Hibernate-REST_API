@@ -6,15 +6,25 @@ I will provide a brief decricrion to quickly tell you what this project is about
 
  - Spring core, MVC, REST
  - PostgreSQL, Hibernate
+ - JSP
  - Tomcat
  - Maven
- - configured by xml
+ - configured by xml & notations
  
+ The app is the playlist and songs catalog - consist of two many-to-many related tables stored in DB
  
- url: api/songs - leads to CRUD operations
+ ![](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/images/1_entity-diagram.jpg)
  
- JSP view displays all the data from a DB table and provides access to CRUD operations
+ REST - url: api/songs - leads to CRUD operations on "songs" table
  
- "Add a song" and "Update" buttons lead to a form for saving and updating songs
+ The first page is the list of playlists
  
- ![main jsp page](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/ListSongs.jpg)
+ ![](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/images/2_main_page.JPG)
+ 
+  The link "Update" allows to add songs to a playlist from catalog or create new
+ 
+ ![](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/images/3_playlist_content.JPG)
+ 
+ ![](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/images/4_catalog.JPG)
+ 
+ ![](https://github.com/pinegink/SpringMVC-Hibernate-REST_API/blob/master/images/5_add_new_song.JPG)
