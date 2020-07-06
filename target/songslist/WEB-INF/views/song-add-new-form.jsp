@@ -29,7 +29,6 @@
 
     <form:form action="/song/add-new-out" modelAttribute="song" method="POST">
 
-        <!-- need to associate this data with customer id -->
         <form:hidden path="id" />
 
         <table>
@@ -65,7 +64,7 @@
     </c:url>
 
     <p>
-        <a href="${toPlaylist}">Back to playlists</a>
+        <a href="${toPlaylist}">Back to catalog</a>
     </p>
 
 </div>

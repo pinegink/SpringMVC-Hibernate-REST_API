@@ -28,9 +28,9 @@
           destroy-method="close">
         <property name="driverClass" value="org.postgresql.Driver"/>
         <property name="jdbcUrl"
-                  value="jdbc:postgresql://localhost:5432/postgres"/>
+                  value="jdbc:postgresql://songsstorage.c5kqbpvpjlls.us-east-1.rds.amazonaws.com:5432/songsstorage"/>
         <property name="user" value="postgres"/>
-        <property name="password" value="1"/>
+        <property name="password" value="11111111"/>
         <property name="minPoolSize" value="5"/>
         <property name="maxPoolSize" value="20"/>
         <property name="maxIdleTime" value="30000"/>

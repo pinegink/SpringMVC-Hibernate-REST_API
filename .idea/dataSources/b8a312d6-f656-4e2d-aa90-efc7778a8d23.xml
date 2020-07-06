@@ -19,22 +19,22 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>1120</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|16752|16754|1
+      <Relations>sequence|table|49442|49444|1
+sequence|table|49468|49470|1
+sequence|table|16752|16754|1
 sequence|table|16760|16762|1
 sequence|table|16773|16775|1
-sequence|table|49442|49444|1
-sequence|table|49468|49470|1
 </Relations>
     </database>
     <database id="5" parent="1" name="university">
       <ObjectId>16705</ObjectId>
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>1069</IntrospectionStateNumber>
-      <Relations>sequence|table|32920|32922|1
-sequence|table|32954|32956|1
-sequence|table|49426|49428|1
-sequence|table|32941|32943|1
+      <Relations>sequence|table|49426|49428|1
 sequence|table|32993|32995|1
+sequence|table|32920|32922|1
+sequence|table|32954|32956|1
+sequence|table|32941|32943|1
 </Relations>
     </database>
     <role id="6" parent="1" name="pg_execute_server_program">

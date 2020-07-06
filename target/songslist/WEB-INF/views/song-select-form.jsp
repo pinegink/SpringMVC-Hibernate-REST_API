@@ -24,15 +24,18 @@
 <div id="container">
 
     <div id="content">
-        
-        <a href="${pageContext.request.contextPath}/song/add-new-in">Add new</a>
+        <c:url var="addNew" value="/song/add-new-in">
+            <c:param name="playlistId" value="${playlistId}" />
+        </c:url>
+
+        <a href="${addNew}">Add new</a>
         <table>
             <tr>
-                <th>id</th>
                 <th>Name</th>
                 <th>Band</th>
                 <th>Year</th>
-                <th>Add</th>
+                <th>Select</th>
+                <th>Delete from catalog</th>
             </tr>
 
             <c:forEach var="song" items="${songs}">
@@ -41,14 +44,20 @@
                     <c:param name="songId" value="${song.id}" />
                     <c:param name="playlistId" value="${playlistId}" />
                 </c:url>
+                <c:url var="deleteLink" value="/song/delete-from-catalog">
+                    <c:param name="songId" value="${song.id}" />
+                    <c:param name="playlistId" value="${playlistId}" />
+                </c:url>
 
                 <tr>
-                    <td> ${song.id} </td>
                     <td> ${song.name} </td>
                     <td> ${song.band} </td>
                     <td> ${song.year} </td>
                     <td>
                         <a href="${add}">+</a>
+                    </td>
+                    <td>
+                        <a href="${deleteLink}">delete</a>
                     </td>
 
                 </tr>
@@ -60,8 +69,11 @@
     </div>
 
 </div>
+<c:url var="backToPlaylist" value="/playlist/update-in">
+    <c:param name="playlistId" value="${playlistId}" />
+</c:url>
 <br>
-<a href="${pageContext.request.contextPath}/playlist/list">Back to playlists</a>
+<a href="${backToPlaylist}">Back to playlist</a>
 </body>
 
 </html>

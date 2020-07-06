@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <title>Save Customer</title>
+    <title>Add new playlist</title>
 
     <link type="text/css"
           rel="stylesheet"
@@ -28,13 +28,12 @@
 
     <form:form action="add-out" modelAttribute="playlist" method="POST">
 
-        <!-- need to associate this data with customer id -->
         <form:hidden path="id" />
 
         <table>
             <tbody>
             <tr>
-                <td><label>First name:</label></td>
+                <td><label>Playlist name:</label></td>
                 <td><form:input path="name" /></td>
             </tr>
 
@@ -53,7 +52,7 @@
     <div style="clear; both;"></div>
 
     <p>
-        <a href="${pageContext.request.contextPath}/playlist/list">Back to List</a>
+        <a href="${pageContext.request.contextPath}/playlist/list">Back to playlists</a>
     </p>
 
 </div>
